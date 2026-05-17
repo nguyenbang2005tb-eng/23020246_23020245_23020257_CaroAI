@@ -1,8 +1,8 @@
 import copy
 
-from board import create_board, AI, HUMAN
-import minimax
-import alphabeta
+from gui.board import create_board, AI, HUMAN
+import source.minimax as minimax
+import source.alphabeta as alphabeta
 
 
 def create_test_states():

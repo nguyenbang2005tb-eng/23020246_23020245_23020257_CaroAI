@@ -1,4 +1,4 @@
-from board import BOARD_SIZE, AI, HUMAN, EMPTY, WIN_COUNT
+from gui.board import BOARD_SIZE, AI, HUMAN, EMPTY, WIN_COUNT
 
 
 def create_pattern_dict():

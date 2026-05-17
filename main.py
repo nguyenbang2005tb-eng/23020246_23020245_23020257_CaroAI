@@ -1,5 +1,5 @@
 import tkinter as tk
-from gui import CaroGUI
+from gui.gui import CaroGUI
 
 
 def main():

@@ -35,19 +35,28 @@ Chương trình có giao diện trực quan, hỗ trợ hiển thị:
 Project gồm các file chính như sau:
 
 ```text
-caro-ai/
+23020246_23020245_23020257_CaroAI/
 │
-├── .gitignore           # Các file/thư mục được Git bỏ qua
-├── alphabeta.py         # Cài đặt thuật toán Alpha-Beta Pruning
-├── benchmark.py         # So sánh hiệu suất giữa Minimax và Alpha-Beta
-├── board.py             # Xử lý bàn cờ, nước đi, kiểm tra thắng/thua/hòa
-├── evaluation.py        # Hàm đánh giá trạng thái bàn cờ
-├── gui.py               # Giao diện trò chơi bằng Pygame
-├── main.py              # File chạy chính của chương trình
-├── minimax.py           # Cài đặt thuật toán Minimax
-├── README.md            # File hướng dẫn sử dụng project
-├── requirements.txt     # Danh sách thư viện cần cài đặt
-└── utils.py             # Các hàm hỗ trợ dùng chung
+├── __pycache__/              # Thư mục cache tự động do Python tạo ra
+├── assets/                   # Thư mục chứa tài nguyên hình ảnh/giao diện
+│
+├── gui/                      # Thư mục chứa các file giao diện
+│   ├── __pycache__/          # Thư mục cache tự động do Python tạo ra
+│   ├── board.py              # Xử lý bàn cờ và hiển thị bàn cờ
+│   └── gui.py                # Xây dựng giao diện trò chơi bằng Pygame
+│
+├── source/                   # Thư mục chứa thuật toán và xử lý logic
+│   ├── __pycache__/          # Thư mục cache tự động do Python tạo ra
+│   ├── alphabeta.py          # Cài đặt thuật toán Alpha-Beta Pruning
+│   ├── benchmark.py          # So sánh hiệu suất giữa Minimax và Alpha-Beta
+│   ├── evaluation.py         # Hàm đánh giá trạng thái bàn cờ
+│   ├── minimax.py            # Cài đặt thuật toán Minimax
+│   └── utils.py              # Các hàm hỗ trợ dùng chung
+│
+├── .gitignore                # Các file/thư mục được Git bỏ qua
+├── main.py                   # File chạy chính của chương trình
+├── README.md                 # File hướng dẫn sử dụng project
+└── requirements.txt          # Danh sách thư viện cần cài đặt
 ```
 
 File chính dùng để chạy chương trình là:

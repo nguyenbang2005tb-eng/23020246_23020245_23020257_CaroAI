@@ -1,4 +1,4 @@
-from board import (
+from gui.board import (
     BOARD_SIZE,
     AI,
     HUMAN,

@@ -3,7 +3,7 @@ import threading
 import tkinter as tk
 from tkinter import messagebox
 
-from board import (
+from gui.board import (
     BOARD_SIZE,
     AI,
     HUMAN,
@@ -14,8 +14,8 @@ from board import (
     is_draw,
 )
 
-import minimax
-import alphabeta
+import source.minimax as minimax
+import source.alphabeta as alphabeta
 
 
 class CaroGUI:
